@@ -21,7 +21,7 @@ const port = process.env.PORT;
 const secret = process.env.SECRET;
 
 const pool = new Pool({
-    connectionString: process.env.DATABASE_URL;
+    connectionString: process.env.DATABASE_URL
 })
 
 function addUser(newUser) {
